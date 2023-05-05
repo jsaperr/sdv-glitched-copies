@@ -1,4 +1,8 @@
 var farmerText = "test";
+var farmText = "test";
+var favoriteText = "test";
+var petText = "test";
+
 
 function copyFarmerText() {
     console.log(farmerText);
