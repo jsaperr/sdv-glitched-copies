@@ -18,5 +18,5 @@ function copyFavoriteText() {
 }
 
 function copyPetText() {
-    navigator.clipboard.writeText(PetText);
+    navigator.clipboard.writeText(petText);
 }
