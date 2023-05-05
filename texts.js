@@ -2511,6 +2511,7 @@ var petText = '[688]
 [410]'
 
 function copyFarmerText() {
+    console.log(farmerText);
     navigator.clipboard.writeText(farmerText);
 }
 
