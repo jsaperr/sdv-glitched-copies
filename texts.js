@@ -1,4 +1,4 @@
-var farmerText = "test"
+var farmerText = "test";
 
 function copyFarmerText() {
     console.log(farmerText);
