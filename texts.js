@@ -1,3 +1,5 @@
+console.log("texts.js loaded");
+
 var farmerText = 
     '}can%farm
 %item money 
