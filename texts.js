@@ -2513,7 +2513,8 @@ function copyFarmerText() {
 }
 
 function copyFarmText() {
-    navigator.clipboard.writeText(farmText);
+    const farmText1 = document.getElementById(farmText).innerText.trim();
+    navigator.clipboard.writeText(farmText1);
 }
 
 function copyFavoriteText() {
