@@ -2507,13 +2507,14 @@ var petText = `[688]
 [404][406][408]
 [410]`;
 
+const farmText1 = document.getElementById(farmText).innerText.trim();
+
 
 function copyFarmerText() {
     navigator.clipboard.writeText(farmerText);
 }
 
 function copyFarmText() {
-    const farmText1 = document.getElementById(farmText).innerText.trim();
     navigator.clipboard.writeText(farmText1);
 }
 
