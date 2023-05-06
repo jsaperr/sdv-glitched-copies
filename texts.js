@@ -2507,7 +2507,7 @@ var petText = `[688]
 [404][406][408]
 [410]`;
 
-const farmText1 = document.getElementById(farmText).innerText.trim();
+const farmText1 = farmText.replace(/ *\n */g, "\n").trim();
 
 
 function copyFarmerText() {
